@@ -16,7 +16,8 @@
             android:layout_marginRight="55dp"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="이름" />
+            android:text="이름"
+            />
         <EditText
             android:id="@+id/name"
             android:layout_width="300dp"
@@ -24,7 +25,8 @@
             android:inputType="textPersonName"
             android:singleLine="true"
             android:privateImeOptions="defaulInputmode=korean"
-            android:hint="이름을 입력하세요" />
+            android:hint="이름을 입력하세요"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -36,14 +38,16 @@
             android:layout_marginRight="22dp"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="전화번호" />
+            android:text="전화번호"
+            />
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:id="@+id/number"
             android:inputType="phone"
             android:singleLine="true"
-            android:hint="전화번호를 입력하세요" />
+            android:hint="전화번호를 입력하세요"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -55,14 +59,16 @@
             android:layout_marginRight="55dp"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="학번" />
+            android:text="학번"
+            />
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:hint="학번을 입력하세요"
             android:inputType="number"
             android:singleLine="true"
-            android:id="@+id/studentnumber" />
+            android:id="@+id/studentnumber"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -74,14 +80,16 @@
             android:layout_marginRight="39dp"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="이메일" />
+            android:text="이메일"
+            />
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:hint="이메일을 입력하세요"
             android:inputType="textEmailAddress"
             android:singleLine="true"
-            android:id="@+id/email" />
+            android:id="@+id/email"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -93,14 +101,16 @@
             android:layout_marginRight="23dp"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="비밀번호" />
+            android:text="비밀번호"
+            />
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="비밀번호를 입력하세요"
             android:singleLine="true"
-            android:id="@+id/password" />
+            android:id="@+id/password"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -112,42 +122,49 @@
             android:layout_marginRight="23dp"
             android:textSize="18dp"
             android:textStyle="bold"
-            android:text="생년월일" />
+            android:text="생년월일"
+            />
         <EditText
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:id="@+id/year"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:textSize="16dp"
-            android:text="년" />
+            android:text="년"
+            />
         <EditText
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:id="@+id/month"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:textSize="16dp"
-            android:text="월" />
+            android:text="월"
+            />
         <EditText
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:id="@+id/day"
-            android:inputType="number" />
+            android:inputType="number"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16dp"
-            android:text="일" />
+            android:text="일"
+            />
     </LinearLayout>
 
     <Button
@@ -160,7 +177,8 @@
         android:onClick="onButton1Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
-        android:id="@+id/sign_up" />
+        android:id="@+id/sign_up"
+        />
 
     <Button
         android:layout_width="200dp"
@@ -171,7 +189,8 @@
         android:onClick="onButton2Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
-        android:id="@+id/cancel" />
+        android:id="@+id/cancel"
+        />
 
     <Button
         android:layout_width="200dp"
@@ -181,7 +200,8 @@
         android:onClick="onButton3Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
-        android:id="@+id/back" />
+        android:id="@+id/back"
+        />
 
 
 </LinearLayout>

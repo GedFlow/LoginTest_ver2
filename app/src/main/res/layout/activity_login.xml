@@ -22,7 +22,8 @@
         android:layout_gravity="center"
         android:text="백석대학교"
         android:textSize="30dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,7 +31,8 @@
         android:layout_gravity="center"
         android:text="BAEKSEOK UNIVERSITY"
         android:textSize="13dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        />
 
     <EditText
         android:layout_width="230dp"
