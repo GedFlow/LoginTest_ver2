@@ -1,19 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="메인화면"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        android:layout_gravity="center"
+        android:text="백석대학교"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BAEKSEOK UNIVERSITY"
+        android:textSize="13dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnCafe"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_baseline_local_dining_24"
+            android:padding="20dp"
+            android:text="오늘의 학식"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@drawable/line"/>
+
+        <Button
+            android:id="@+id/btnDistance"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:drawableTop="@drawable/ic_baseline_location_searching_24"
+            android:padding="20dp"
+            android:text="건물 간 거리"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@drawable/line"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/btnBus"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_baseline_directions_bus_24"
+            android:padding="20dp"
+            android:text="통학버스"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@drawable/line"/>
+        <Button
+            android:id="@+id/btnHouse"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:drawableTop="@drawable/ic_baseline_domain_24"
+            android:padding="20dp"
+            android:text="자취방 구하기"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@drawable/line"/>
+
+    </LinearLayout>
+
+</LinearLayout>

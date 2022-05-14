@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="start" >
+        <item>본부동</item>
+        <item>자유관</item>
+        <item>진리관</item>
+        <item>목양관</item>
+        <item>예술동</item>
+        <item>체육관</item>
+        <item>인성관</item>
+        <item>생활관</item>
+        <item>승리관</item>
+        <item>지혜관</item>
+        <item>조형관</item>
+        <item>백석홀</item>
+        <item>학생복지관</item>
+    </string-array>
+
+    <string-array name="end" >
+        <item>본부동</item>
+        <item>자유관</item>
+        <item>진리관</item>
+        <item>목양관</item>
+        <item>예술동</item>
+        <item>체육관</item>
+        <item>인성관</item>
+        <item>생활관</item>
+        <item>승리관</item>
+        <item>지혜관</item>
+        <item>조형관</item>
+        <item>백석홀</item>
+        <item>학생복지관</item>
+    </string-array>
+</resources>

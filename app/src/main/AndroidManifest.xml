@@ -10,11 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_Test2">
         <activity
+            android:name=".Distance"
+            android:exported="false" />
+        <activity
+            android:name=".House"
+            android:exported="false" />
+        <activity
+            android:name=".Bus"
+            android:exported="false" />
+        <activity
+            android:name=".Cafeteria"
+            android:exported="false" />
+        <activity
             android:name=".RegistActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,9 +35,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
