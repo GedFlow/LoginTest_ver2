@@ -6,7 +6,9 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -18,6 +20,9 @@ public class RegistActivity extends AppCompatActivity {
 
     String FILENAME = "signup.txt";
     EditText name1, phone1, studentnumber1, email1, password1, year1, month1, day1;
+
+    Button btnSignup;
+    DBHelper DB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +37,32 @@ public class RegistActivity extends AppCompatActivity {
         year1  = (EditText)findViewById(R.id.year);
         month1 = (EditText)findViewById(R.id.month);
         day1 = (EditText)findViewById(R.id.day);
+
+        btnSignup = (Button)findViewById(R.id.sign_up);
+
+        DB = new DBHelper(this);
+        String userId = studentnumber1.getText().toString();
+        String userPassword = password1.getText().toString();
+
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(TextUtils.isEmpty(userId) || TextUtils.isEmpty(userPassword))
+                    Toast.makeText(RegistActivity.this, "빈칸 입력하세요", Toast.LENGTH_SHORT).show();
+                else {
+                    Boolean checkuser = DB.checkUserName(userId);
+                    if(checkuser == false) {
+                        Boolean insert = DB.insertData(userId, userPassword);
+                        if(insert == true) {
+                            Toast.makeText(RegistActivity.this, "회원가입 성공", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                            startActivity(intent);
+                        }
+                    }
+                }
+            }
+        });
 
     }
 
@@ -63,24 +94,9 @@ public class RegistActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
                 Toast.makeText(getApplicationContext(), "환영합니다", Toast.LENGTH_LONG).show();
-                try {          //데이타베이스 입출력(일단 교안에 나온거 그대로 따라함)
-                    FileOutputStream fos = openFileOutput(FILENAME, MODE_APPEND);
-                    FileInputStream fis = openFileInput(FILENAME);
 
-                    String str = name1.getText().toString() + "," + phone1.getText().toString() + "," + studentnumber1.getText().toString() + "," + email1.getText().toString() + "," + year1.getText().toString() + "," + month1.getText().toString() + "," + day1.getText().toString() + ";";
-                    fos.write(str.getBytes());
 
-                    byte[] buffer = new byte[fis.available()];
-                    fis.read(buffer);
 
-                    String[] count = (new String(buffer)).split(";");
-
-                    fos.close();
-                    fis.close();
-
-                } catch(IOException e) {
-                    e.printStackTrace();
-                }
             }
         });
 
