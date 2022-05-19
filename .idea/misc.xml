@@ -3,16 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/category.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/ic_baseline_domain_24.xml" value="0.2185" />
         <entry key="app/src/main/res/drawable/line.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/line_cafe.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/star.xml" value="0.2185" />
         <entry key="app/src/main/res/drawable/table_inside.xml" value="0.19" />
         <entry key="app/src/main/res/drawable/table_outside.xml" value="0.19" />
         <entry key="app/src/main/res/layout/activity_bus.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_cafeteria.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_cafeteria.xml" value="0.27655792236328125" />
         <entry key="app/src/main/res/layout/activity_distance.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_fragcafe_bonbu.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_fragcafe_budorm.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_fragcafe_global.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_fragcafe_kyosu.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/activity_fragcafe_winter.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/layout/activity_house.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_regist.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_regist.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/popup.xml" value="0.29739583333333336" />
       </map>
     </option>
   </component>

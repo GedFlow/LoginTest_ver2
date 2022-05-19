@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_Test2">
         <activity
+            android:name=".Fragcafe_global"
+            android:exported="false" />
+        <activity
+            android:name=".Fragcafe_budorm"
+            android:exported="false" />
+        <activity
+            android:name=".Fragcafe_winter"
+            android:exported="false" />
+        <activity
+            android:name=".Fragcafe_kyosu"
+            android:exported="false" />
+        <activity
+            android:name=".Fragcafe_bonbu"
+            android:exported="false" />
+        <activity
             android:name=".Distance"
             android:exported="false" />
         <activity

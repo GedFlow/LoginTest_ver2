@@ -41,12 +41,13 @@ public class RegistActivity extends AppCompatActivity {
         btnSignup = (Button)findViewById(R.id.sign_up);
 
         DB = new DBHelper(this);
-        String userId = studentnumber1.getText().toString();
-        String userPassword = password1.getText().toString();
+
 
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String userId = studentnumber1.getText().toString();
+                String userPassword = password1.getText().toString();
 
                 if(TextUtils.isEmpty(userId) || TextUtils.isEmpty(userPassword))
                     Toast.makeText(RegistActivity.this, "빈칸 입력하세요", Toast.LENGTH_SHORT).show();

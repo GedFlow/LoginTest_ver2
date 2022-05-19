@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 public class DBHelper extends SQLiteOpenHelper {
 
@@ -54,6 +55,19 @@ public class DBHelper extends SQLiteOpenHelper {
             return true;
         else
             return false;
+    }
+
+    public boolean checkLogin(String username, String password) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String sql = "select * from users where username=? and password=?";
+        Cursor cursor = db.rawQuery(sql, new String[]{username, password});
+        Log.e("로그", username);
+        Log.e("로그", password);
+        if (cursor.moveToFirst() == true) {
+            cursor.close();
+            return true;
+        }
+        return false;
     }
 
 }

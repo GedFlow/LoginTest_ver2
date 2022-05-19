@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_bonbu"
+        android:title="본부동 식당"
+        />
+
+    <item
+        android:id="@+id/action_kyosu"
+        android:title="교수회관"
+        />
+
+    <item
+        android:id="@+id/action_winter"
+        android:title="밀겨울"
+        />
+
+    <item
+        android:id="@+id/action_budorm"
+        android:title="백석생활관 식당"
+        />
+
+    <item
+        android:id="@+id/action_global"
+        android:title="글로벌외식관"
+        />
+
+</menu>
