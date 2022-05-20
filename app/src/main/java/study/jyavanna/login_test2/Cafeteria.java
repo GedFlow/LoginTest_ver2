@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 
 public class Cafeteria extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class Cafeteria extends AppCompatActivity {
     private Fragcafe_winter winter;
 
     Button btnCategory;
+    TextView txtCategory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class Cafeteria extends AppCompatActivity {
         setContentView(R.layout.activity_cafeteria);
 
         btnCategory = (Button) findViewById(R.id.category);
+        txtCategory = (TextView) findViewById(R.id.categoryName);
 
         fragmentManager = getSupportFragmentManager();
 
@@ -54,20 +57,25 @@ public class Cafeteria extends AppCompatActivity {
 
                         switch (menuItem.getItemId()) {
                             case R.id.action_bonbu:
-                            transaction.replace(R.id.framelayout, bonbu).commitAllowingStateLoss();
-                            break;
+                                txtCategory.setText("본부동 식당");
+                                transaction.replace(R.id.framelayout, bonbu).commitAllowingStateLoss();
+                                break;
 
                             case R.id.action_kyosu:
+                                txtCategory.setText("교수회관");
                                 transaction.replace(R.id.framelayout, kyosu).commitAllowingStateLoss();
                                 break;
 
                             case R.id.action_winter:
+                                txtCategory.setText("밀겨울");
                                 transaction.replace(R.id.framelayout, winter).commitAllowingStateLoss();
                                 break;
                             case R.id.action_budorm:
+                                txtCategory.setText("백석생활관 식당");
                                 transaction.replace(R.id.framelayout, budorm).commitAllowingStateLoss();
                                 break;
                             case R.id.action_global:
+                                txtCategory.setText("글로벌외식관");
                                 transaction.replace(R.id.framelayout, global).commitAllowingStateLoss();
                                 break;
                             default:
