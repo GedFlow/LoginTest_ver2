@@ -2,13 +2,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="study.jyavanna.login_test2">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_bulogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_bulogo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Login_Test2">
+        android:theme="@style/Theme.Login_Test2"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Web4"
+            android:exported="false" />
+        <activity
+            android:name=".Web3"
+            android:exported="false" />
+        <activity
+            android:name=".Web2"
+            android:exported="false" />
+        <activity
+            android:name=".Web1"
+            android:exported="false" />
         <activity
             android:name=".Fragcafe_global"
             android:exported="false" />

@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/category.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/ic_baseline_domain_24.xml" value="0.2185" />
+        <entry key="app/src/main/res/drawable/ic_buLogo_background.xml" value="0.2185" />
         <entry key="app/src/main/res/drawable/line.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/line_cafe.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/star.xml" value="0.2185" />
@@ -23,7 +24,11 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_regist.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_web1.xml" value="0.29739583333333336" />
         <entry key="app/src/main/res/menu/popup.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_buLogo.xml" value="0.2185" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_buLogo_round.xml" value="0.2185" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2185" />
       </map>
     </option>
   </component>

@@ -1,5 +1,6 @@
 package study.jyavanna.login_test2;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
@@ -7,10 +8,17 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -18,16 +26,21 @@ import java.io.IOException;
 
 public class RegistActivity extends AppCompatActivity {
 
+    String TAG = "테스트태그";
     String FILENAME = "signup.txt";
     EditText name1, phone1, studentnumber1, email1, password1, year1, month1, day1;
 
     Button btnSignup;
     DBHelper DB;
 
+    private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regist);
+
+        mAuth = FirebaseAuth.getInstance();
 
         name1 = (EditText) findViewById(R.id.name);
         phone1 = (EditText)findViewById(R.id.number);
@@ -42,28 +55,57 @@ public class RegistActivity extends AppCompatActivity {
 
         DB = new DBHelper(this);
 
-
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String userId = studentnumber1.getText().toString();
-                String userPassword = password1.getText().toString();
+                String email = studentnumber1.getText().toString();
+                String password = password1.getText().toString();
+                email = email + "@email.com";
 
-                if(TextUtils.isEmpty(userId) || TextUtils.isEmpty(userPassword))
-                    Toast.makeText(RegistActivity.this, "빈칸 입력하세요", Toast.LENGTH_SHORT).show();
-                else {
-                    Boolean checkuser = DB.checkUserName(userId);
-                    if(checkuser == false) {
-                        Boolean insert = DB.insertData(userId, userPassword);
-                        if(insert == true) {
-                            Toast.makeText(RegistActivity.this, "회원가입 성공", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                            startActivity(intent);
-                        }
-                    }
-                }
+                mAuth.createUserWithEmailAndPassword(email, password)
+                        .addOnCompleteListener(RegistActivity.this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                                    // Sign in success, update UI with the signed-in user's information
+                                    Log.d(TAG, "createUserWithEmail:success");
+                                    FirebaseUser user = mAuth.getCurrentUser();
+                                    updateUI(user);
+                                } else {
+                                    // If sign in fails, display a message to the user.
+                                    Log.d(TAG, "createUserWithEmail:failure", task.getException());
+                                    Toast.makeText(RegistActivity.this, "Authentication failed.",
+                                            Toast.LENGTH_SHORT).show();
+                                    updateUI(null);
+                                }
+                            }
+                        });
             }
         });
+
+//        btnSignup.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                String userId = studentnumber1.getText().toString();
+//                String userPassword = password1.getText().toString();
+//
+//                if(TextUtils.isEmpty(userId) || TextUtils.isEmpty(userPassword))
+//                    Toast.makeText(RegistActivity.this, "빈칸 입력하세요", Toast.LENGTH_SHORT).show();
+//                else {
+//                    Boolean checkuser = DB.checkUserName(userId);
+//                    if(checkuser == false) {
+//                        Boolean insert = DB.insertData(userId, userPassword);
+//                        if(insert == true) {
+//                            Toast.makeText(RegistActivity.this, "회원가입 성공", Toast.LENGTH_SHORT).show();
+//                            Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+//                            startActivity(intent);
+//                        }
+//                    }
+//                }
+//            }
+//        });
+    }
+    private void updateUI(FirebaseUser user) {
 
     }
 
