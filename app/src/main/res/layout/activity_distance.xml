@@ -4,66 +4,167 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp">
-        <Spinner
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/building1"
-            android:entries="@array/start"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="->"
-            android:textSize="20dp"/>
-        <Spinner
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/building2"
-            android:entries="@array/end"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center">
-        <TextView
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="#444FFF"
-            android:id="@+id/textView1"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="에서"
-            android:layout_margin="10dp"
-            android:textColor="#444FFF" />
-        <TextView
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="#444FFF"
-            android:id="@+id/textView2"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="까지의 거리"
-            android:textColor="#444FFF" />
-    </LinearLayout>
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="40dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:id="@+id/textView3"/>
+        android:text="건물 간 거리"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp">
+
+        <Button
+            android:id="@+id/btnBD1"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="본부동"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD2"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="자유관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD3"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="진리관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnBD4"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="목양관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD5"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="예술동"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD6"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="체육관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp">
+
+        <Button
+            android:id="@+id/btnBD7"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="인성관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD8"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="생활관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD9"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="승리관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnBD10"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="지혜관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD11"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="조형관"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBD12"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="백석홀"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp">
+
+        <Button
+            android:id="@+id/btnBD13"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:text="학생복지관"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 
 
