@@ -39,20 +39,30 @@
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="레이크빌  "
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room1button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button1Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room1mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button1mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -64,20 +74,30 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="대주고시텔"
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room2button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button2Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room2mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button2mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -89,20 +109,30 @@
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="로얄원룸  "
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room3button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button3Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room3mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button3mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -114,20 +144,30 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="신세대원룸"
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room4button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button4Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room4mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button4mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -139,20 +179,30 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="비버리힐스"
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room5button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button5Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room5mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button5mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -164,20 +214,30 @@
                     android:layout_marginRight="45dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="한성B동"
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room6button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button6Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room6mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button6mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -189,20 +249,30 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="티케하우스"
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room7button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button7Click"
                     android:text="세부정보" />
+                <Button
+                    android:id="@+id/room7mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button7mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
 
             <LinearLayout
@@ -214,21 +284,65 @@
                     android:layout_marginRight="28dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="40dp"
                     android:text="메가시티1"
                     android:textSize="20dp" />
                 <Button
                     android:id="@+id/room8button"
-                    android:layout_width="150dp"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginRight="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
                     android:backgroundTint="#444FFF"
                     android:onClick="button8Click"
-                    android:text="세부정보"
-                    tools:ignore="OnClick" />
+                    android:text="세부정보" />
+                <Button
+                    android:id="@+id/room8mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button8mapClick"
+                    android:text="지도보기" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="59dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:text="파크빌"
+                    android:textSize="20dp" />
+                <Button
+                    android:id="@+id/room9button"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button9Click"
+                    android:text="세부정보" />
+                <Button
+                    android:id="@+id/room9mapbutton"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#444FFF"
+                    android:onClick="button9mapClick"
+                    android:text="지도보기" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
