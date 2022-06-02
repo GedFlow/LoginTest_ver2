@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/button_style1.xml" value="0.222" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/background_color1.xml" value="0.145" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/background_color2.xml" value="0.1425" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/button_style1.xml" value="0.152" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/button_style2.xml" value="0.152" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/button_style3.xml" value="0.145" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/category.xml" value="0.1475" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/house_background_color.xml" value="0.222" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/house_button_style1.xml" value="0.145" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/house_button_style2.xml" value="0.222" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.1475" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/ic_baseline_domain_24.xml" value="0.145" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/ic_baseline_location_searching_24.xml" value="0.145" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/ic_bulogo_background.xml" value="0.145" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/drawable/line.xml" value="0.145" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_bus.xml" value="0.2453125" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_cafeteria.xml" value="0.2453125" />
@@ -18,10 +26,11 @@
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_fragcafe_winter.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_house.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_login.xml" value="0.2453125" />
-        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_main.xml" value="0.2453125" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_regist.xml" value="0.264" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_review.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_web1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/LoginTest_ver2/app/src/main/res/layout/activity_web2.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/drawable/category.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/ic_baseline_directions_bus_24.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/ic_baseline_domain_24.xml" value="0.2185" />

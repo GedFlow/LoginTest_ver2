@@ -7,50 +7,65 @@
     tools:context=".Bus"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="통학버스 이용 안내"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_color1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="통학버스 이용 안내"
+            android:textSize="23dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
 
-    <Button
-        android:id="@+id/bus4"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="70dp"
-        android:text="셔틀버스 시간표"
-        android:textSize="18dp"
-        android:textStyle="bold"/>
-    <Button
-        android:id="@+id/bus1"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="통학버스 시간표"
-        android:textSize="18dp"
-        android:textStyle="bold"/>
-    <Button
-        android:id="@+id/bus2"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="14번 버스 시간표"
-        android:textSize="18dp"
-        android:textStyle="bold"/>
-    <Button
-        android:id="@+id/bus3"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="700번 버스 시간표"
-        android:textSize="18dp"
-        android:textStyle="bold"/>
+        <Button
+            android:id="@+id/bus4"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="셔틀버스 시간표"
+            android:textColor="#19A4A4"
+            android:textSize="18dp"
+            android:background="@drawable/button_style3"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/bus1"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="통학버스 시간표"
+            android:textColor="#19A4A4"
+            android:background="@drawable/button_style3"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/bus2"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="14번 버스 시간표"
+            android:textColor="#19A4A4"
+            android:background="@drawable/button_style3"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/bus3"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="700번 버스 시간표"
+            android:textColor="#19A4A4"
+            android:background="@drawable/button_style3"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
 
 </LinearLayout>

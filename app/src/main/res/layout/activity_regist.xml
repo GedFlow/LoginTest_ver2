@@ -5,18 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegistActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background_color2">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="55dp"
             android:textSize="18dp"
-            android:textStyle="bold"
             android:text="이름"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:id="@+id/name"
@@ -26,19 +30,23 @@
             android:singleLine="true"
             android:privateImeOptions="defaulInputmode=korean"
             android:hint="이름을 입력하세요"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="22dp"
             android:textSize="18dp"
-            android:textStyle="bold"
             android:text="전화번호"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="300dp"
@@ -47,19 +55,23 @@
             android:inputType="phone"
             android:singleLine="true"
             android:hint="전화번호를 입력하세요"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="55dp"
             android:textSize="18dp"
-            android:textStyle="bold"
             android:text="학번"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="300dp"
@@ -68,19 +80,23 @@
             android:inputType="number"
             android:singleLine="true"
             android:id="@+id/studentnumber"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="39dp"
             android:textSize="18dp"
-            android:textStyle="bold"
             android:text="이메일"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="300dp"
@@ -89,25 +105,31 @@
             android:inputType="textEmailAddress"
             android:singleLine="true"
             android:id="@+id/email"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="23dp"
             android:textSize="18dp"
-            android:textStyle="bold"
             android:text="비밀번호"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="비밀번호(6자리 이상)를 입력하세요"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
             android:singleLine="true"
             android:id="@+id/password"
             />
@@ -115,20 +137,24 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="23dp"
             android:textSize="18dp"
-            android:textStyle="bold"
             android:text="생년월일"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:id="@+id/year"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
             android:layout_marginRight="5dp"
             />
         <TextView
@@ -136,13 +162,18 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:textSize="16dp"
+            android:singleLine="true"
             android:text="년"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:id="@+id/month"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
             android:layout_marginRight="5dp"
             />
         <TextView
@@ -151,12 +182,16 @@
             android:layout_marginRight="10dp"
             android:textSize="16dp"
             android:text="월"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
         <EditText
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:id="@+id/day"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
             android:inputType="number"
             />
         <TextView
@@ -164,6 +199,8 @@
             android:layout_height="wrap_content"
             android:textSize="16dp"
             android:text="일"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
             />
     </LinearLayout>
 
@@ -177,6 +214,7 @@
         android:onClick="onButton1Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
+        android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:id="@+id/sign_up"
         />
@@ -188,7 +226,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
         android:onClick="onButton2Clicked"
-        android:backgroundTint="#3476FF"
+        android:backgroundTint="#80000000"
         android:textSize="16dp"
         android:textColor="#FFFFFF"
         android:id="@+id/cancel"
@@ -200,7 +238,7 @@
         android:text="뒤로가기"
         android:layout_gravity="center"
         android:onClick="onButton3Clicked"
-        android:backgroundTint="#3476FF"
+        android:backgroundTint="#40000000"
         android:textSize="16dp"
         android:textColor="#FFFFFF"
         android:id="@+id/back"
