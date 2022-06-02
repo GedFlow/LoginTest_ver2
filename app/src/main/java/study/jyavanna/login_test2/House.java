@@ -19,10 +19,10 @@ public class House extends AppCompatActivity {
     }
 
     public void button1Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder roomDialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder roomDialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = roomDialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = roomDialog_call.create();
+        AlertDialog.Builder roomDialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder roomDialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = roomDialog.create();
+        AlertDialog ad2 = roomDialog_call.create();
         roomDialog.setMessage("주소 : 천안시 동남구 안서동 417-8\n년세/월세 : 월세 30만원\n보증금 : 30만원\n관리비 : 5만원\n학교까지의 거리 : 7분(정문)\n연세부동산 전화번호 : 041-561-8949" );
         roomDialog_call.setMessage("연세부동산으로 전화 하시겠습니까? \n" + "tel : 041-561-8949");
 
@@ -68,16 +68,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button1mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/v83joCPTpu7LWMRx9"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+417-8"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button2Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room2Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room2Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room2Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room2Dialog_call.create();
+        AlertDialog.Builder room2Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room2Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room2Dialog.create();
+        AlertDialog ad2 = room2Dialog_call.create();
         room2Dialog.setMessage("주소 : 천안시 동남구 안서동 384-1\n년세/월세 : 월세 15만원\n보증금 : 20만원\n관리비 : 7만원\n학교까지의 거리 : 2분(정문)\n금호효자부동산 전화번호 : 041-575-8200" );
         room2Dialog_call.setMessage("금호효자부동산으로 전화 하시겠습니까? \n" + "tel : 041-575-8200");
 
@@ -123,16 +125,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button2mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/XGmZsaFsZo3vwuce7"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+384-1"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button3Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room3Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room3Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room3Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room3Dialog_call.create();
+        AlertDialog.Builder room3Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room3Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room3Dialog.create();
+        AlertDialog ad2 = room3Dialog_call.create();
         room3Dialog.setMessage("주소 : 천안시 동남구 안서동 379-31\n년세/월세 : 월세 25만원\n보증금 : 30만원\n관리비 : 5만원\n학교까지의 거리 : 6분(정문)\n연세부동산 전화번호 : 041-561-8949" );
         room3Dialog_call.setMessage("연세부동산으로 전화 하시겠습니까? \n" + "tel : 041-561-8949");
 
@@ -178,16 +182,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button3mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/4s68oGmhwYNhP6vW6"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+379-31"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button4Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room4Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room4Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room4Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room4Dialog_call.create();
+        AlertDialog.Builder room4Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room4Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room4Dialog.create();
+        AlertDialog ad2 = room4Dialog_call.create();
         room4Dialog.setMessage("주소 : 천안시 동남구 안서동 418-2\n년세/월세 : 월세 25만원\n보증금 : 20만원\n관리비 : 5만원\n학교까지의 거리 : 7분(정문)\n연세부동산 전화번호 : 041-561-8949" );
         room4Dialog_call.setMessage("연세부동산으로 전화 하시겠습니까? \n" + "tel : 041-561-8949");
 
@@ -233,16 +239,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button4mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/pewWq47Maypc5Aec6"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+418-2"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button5Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room5Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room5Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room5Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room5Dialog_call.create();
+        AlertDialog.Builder room5Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room5Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room5Dialog.create();
+        AlertDialog ad2 = room5Dialog_call.create();
         room5Dialog.setMessage("주소 : 천안시 동남구 안서동 107-13\n년세/월세 : 년세 420만원\n보증금 : 50원\n관리비 : 0만원\n학교까지의 거리 : 1분(쪽문)\n금호114부동산 전화번호 : 041-552-5114" );
         room5Dialog_call.setMessage("금호114부동산으로 전화 하시겠습니까? \n" + "tel : 041-552-5114");
 
@@ -288,16 +296,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button5mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/jhRnA9ZsCpvbCnkN9"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+107-13"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button6Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room6Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room6Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room6Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room6Dialog_call.create();
+        AlertDialog.Builder room6Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room6Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room6Dialog.create();
+        AlertDialog ad2 = room6Dialog_call.create();
         room6Dialog.setMessage("주소 : 천안시 동남구 안서동 417-7\n년세/월세 : 월세 25만원\n보증금 : 20만원\n관리비 : 5만원\n학교까지의 거리 : 7분(정문)\n연세부동산 전화번호 : 041-561-8949" );
         room6Dialog_call.setMessage("연세부동산으로 전화 하시겠습니까? \n" + "tel : 041-561-8949");
 
@@ -343,16 +353,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button6mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/vc5Yji3NW1xMnwcZA"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+417-7"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button7Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room7Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room7Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room7Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room7Dialog_call.create();
+        AlertDialog.Builder room7Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room7Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room7Dialog.create();
+        AlertDialog ad2 = room7Dialog_call.create();
         room7Dialog.setMessage("주소 : 천안시 동남구 안서동 83-6\n년세/월세 : 월세 33만원\n보증금 : 50만원\n관리비 : 5만원\n학교까지의 거리 : 17분(정문)\n연세부동산 전화번호 : 041-561-8949" );
         room7Dialog_call.setMessage("연세부동산으로 전화 하시겠습니까? \n" + "tel : 041-561-8949");
 
@@ -398,16 +410,18 @@ public class House extends AppCompatActivity {
     }
 
     public void button7mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/ak4KNQBH6avcxsTQ9"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+83-6"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button8Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room8Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room8Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room8Dialog.create();
-        androidx.appcompat.app.AlertDialog ad2 = room8Dialog_call.create();
+        AlertDialog.Builder room8Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room8Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room8Dialog.create();
+        AlertDialog ad2 = room8Dialog_call.create();
         room8Dialog.setMessage("주소 : 천안시 동남구 안서동 337-2\n년세/월세 : 월세 45만원\n보증금 : 500만원\n관리비 : 7만원\n학교까지의 거리 : 9분(정문)\n금호114부동산 전화번호 : 041-552-5114" );
         room8Dialog_call.setMessage("금호114부동산으로 전화 하시겠습니까? \n" + "tel : 041-552-5114");
 
@@ -453,15 +467,17 @@ public class House extends AppCompatActivity {
     }
 
     public void button8mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/ATAYt9XpsdHdYFsF9"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+안서동+337-2"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
 
     public void button9Click(View v) {
-        androidx.appcompat.app.AlertDialog.Builder room9Dialog = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog.Builder room9Dialog_call = new androidx.appcompat.app.AlertDialog.Builder(this);
-        androidx.appcompat.app.AlertDialog ad1 = room9Dialog.create();
+        AlertDialog.Builder room9Dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder room9Dialog_call = new AlertDialog.Builder(this);
+        AlertDialog ad1 = room9Dialog.create();
         AlertDialog ad2 = room9Dialog_call.create();
         room9Dialog.setMessage("주소 : 천안시 동남구 문암4길 28-1\n년세/월세 : 년세 300만원\n보증금 : 0원\n관리비 : 0원\n학교까지의 거리 : 3분(백문대정문)\n담당자 전화번호 : 010-3425-4008" );
         room9Dialog_call.setMessage("담당자에게 전화 하시겠습니까? \n" + "tel : 010-3425-4008");
@@ -508,10 +524,10 @@ public class House extends AppCompatActivity {
     }
 
     public void button9mapClick(View v) {
-        Intent intent_map_web = new Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/ba5LVKbLRJNk8ApB7"));
+        Uri uri = Uri.parse(String.format("geo:0,0?z=10&q=천안시+동남구+문암4길+28-1"));
+        Intent mapintent = new Intent(Intent.ACTION_VIEW, uri);
+        mapintent.setPackage("com.google.android.apps.maps");
         Toast.makeText(getApplicationContext(), "구글맵으로 연결합니다.", Toast.LENGTH_SHORT).show();
-        startActivity(intent_map_web);
+        startActivity(mapintent);
     }
-
-
 }

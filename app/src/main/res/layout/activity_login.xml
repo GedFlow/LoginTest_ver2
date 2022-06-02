@@ -40,6 +40,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:hint=" 학번을 입력하세요"
+        android:singleLine="true"
         android:id="@+id/idText"
         android:drawableStart="@drawable/ic_baseline_person_24"
         android:drawableLeft="@drawable/ic_baseline_person_24"
@@ -52,6 +53,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:hint=" 비밀번호를 입력하세요"
+        android:singleLine="true"
         android:id="@+id/passwordText"
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
@@ -65,6 +67,7 @@
         android:layout_marginTop="40dp"
         android:text="로그인"
         android:textSize="20dp"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#00a0ff"
         />
 
@@ -75,6 +78,7 @@
         android:layout_gravity="center"
         android:text="회원가입"
         android:textSize="20dp"
+        android:textColor="#FFFFFF"
         android:backgroundTint="#808080"
         />
 

@@ -177,6 +177,7 @@
         android:onClick="onButton1Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
+        android:textColor="#FFFFFF"
         android:id="@+id/sign_up"
         />
 
@@ -189,6 +190,7 @@
         android:onClick="onButton2Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
+        android:textColor="#FFFFFF"
         android:id="@+id/cancel"
         />
 
@@ -200,6 +202,7 @@
         android:onClick="onButton3Clicked"
         android:backgroundTint="#3476FF"
         android:textSize="16dp"
+        android:textColor="#FFFFFF"
         android:id="@+id/back"
         />
 
