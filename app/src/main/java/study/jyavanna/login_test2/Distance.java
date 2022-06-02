@@ -48,7 +48,7 @@ public class Distance extends AppCompatActivity {
         btnBD1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i1 = new Intent(getApplicationContext(), WebBD1.class);
+                Intent i1 = new Intent(Distance.this, WebBD1.class);
                 startActivity(i1);
             }
         });
