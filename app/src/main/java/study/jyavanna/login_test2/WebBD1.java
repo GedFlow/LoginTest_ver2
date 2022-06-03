@@ -1,10 +1,10 @@
 package study.jyavanna.login_test2;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class WebBD1 extends AppCompatActivity {
 
@@ -13,10 +13,10 @@ public class WebBD1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webbd1);
 
-        WebView webbd1 = (WebView) findViewById(R.id.webbd1);
-        webbd1.loadUrl("file:///android_assets/bd1.html");
+        WebView webView2 = (WebView) findViewById(R.id.webBdView1);
+        webView2.loadUrl("file:///android_asset/bd1.html");
 
-        WebSettings webSettings = webbd1.getSettings();
+        WebSettings webSettings = webView2.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
 }

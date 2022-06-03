@@ -22,6 +22,9 @@
             android:name=".WebBD1"
             android:exported="false" />
         <activity
+            android:name=".WebBD2"
+            android:exported="false" />
+        <activity
             android:name=".Web4"
             android:exported="false" />
         <activity
