@@ -14,7 +14,7 @@ public class Web3 extends AppCompatActivity {
         setContentView(R.layout.activity_web3);
 
         WebView webView2 = (WebView) findViewById(R.id.webView3);
-        webView2.loadUrl("file:///android_asset/bus2.html");
+        webView2.loadUrl("file:///android_asset/bus3.html");
 
         WebSettings webSettings = webView2.getSettings();
         webSettings.setJavaScriptEnabled(true);

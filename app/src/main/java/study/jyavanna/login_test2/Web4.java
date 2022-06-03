@@ -14,7 +14,7 @@ public class Web4 extends AppCompatActivity {
         setContentView(R.layout.activity_web4);
 
         WebView webView2 = (WebView) findViewById(R.id.webView4);
-        webView2.loadUrl("file:///android_asset/bus2.html");
+        webView2.loadUrl("file:///android_asset/bus4.html");
 
         WebSettings webSettings = webView2.getSettings();
         webSettings.setJavaScriptEnabled(true);
