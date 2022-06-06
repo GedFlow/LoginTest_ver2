@@ -24,7 +24,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
         android:id="@+id/scrollView"
-        android:background="@drawable/background_color1">
+        android:background="#44B1c4fd">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,8 +53,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:onClick="button1Click"
                     android:textSize="15dp"
                     android:textStyle="bold"
@@ -66,8 +66,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button1mapClick"
                     android:text="지도보기" />
@@ -95,8 +95,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button2Click"
                     android:text="세부정보" />
@@ -107,8 +107,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button2mapClick"
                     android:text="지도보기" />
@@ -136,8 +136,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button3Click"
                     android:text="세부정보" />
@@ -148,8 +148,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button3mapClick"
                     android:text="지도보기" />
@@ -179,8 +179,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button4Click"
                     android:text="세부정보" />
@@ -192,8 +192,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button4mapClick"
                     android:text="지도보기" />
@@ -202,42 +202,45 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="31dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="31dp"
+                    android:layout_marginBottom="10dp"
                     android:text="비버리힐스"
-                    android:textSize="18dp"
                     android:textColor="#FF778899"
-                    android:textStyle="bold"/>
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/room5button"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_style3"
                     android:onClick="button5Click"
-                    android:text="세부정보" />
+                    android:text="세부정보"
+                    android:textColor="#19A4A4"
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/room5mapbutton"
                     android:layout_width="90dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
-                    android:textStyle="bold"
+                    android:background="@drawable/button_style1"
                     android:onClick="button5mapClick"
-                    android:text="지도보기" />
+                    android:text="지도보기"
+                    android:textColor="#19A4A4"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -262,8 +265,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button6Click"
                     android:text="세부정보" />
@@ -274,8 +277,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button6mapClick"
                     android:text="지도보기" />
@@ -305,8 +308,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button7Click"
                     android:text="세부정보" />
@@ -318,8 +321,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button7mapClick"
                     android:text="지도보기" />
@@ -347,8 +350,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button8Click"
                     android:text="세부정보" />
@@ -359,8 +362,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button8mapClick"
                     android:text="지도보기" />
@@ -388,8 +391,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="20dp"
-                    android:background="@drawable/button_style1"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style3"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button9Click"
                     android:text="세부정보" />
@@ -400,8 +403,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_style2"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_style1"
+                    android:textColor="#19A4A4"
                     android:textStyle="bold"
                     android:onClick="button9mapClick"
                     android:text="지도보기" />
