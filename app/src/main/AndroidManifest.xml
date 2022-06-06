@@ -25,6 +25,39 @@
             android:name=".WebBD2"
             android:exported="false" />
         <activity
+            android:name=".WebBD3"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD4"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD5"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD6"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD7"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD8"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD9"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD10"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD11"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD12"
+            android:exported="false" />
+        <activity
+            android:name=".WebBD13"
+            android:exported="false" />
+        <activity
             android:name=".Web4"
             android:exported="false" />
         <activity

@@ -61,6 +61,84 @@ public class Distance extends AppCompatActivity {
                 startActivity(i1);
             }
         });
+        btnBD3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD3.class);
+                startActivity(i1);
+            }
+        });
+        btnBD4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD4.class);
+                startActivity(i1);
+            }
+        });
+        btnBD5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD5.class);
+                startActivity(i1);
+            }
+        });
+        btnBD6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD6.class);
+                startActivity(i1);
+            }
+        });
+        btnBD7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD7.class);
+                startActivity(i1);
+            }
+        });
+        btnBD8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD8.class);
+                startActivity(i1);
+            }
+        });
+        btnBD9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD9.class);
+                startActivity(i1);
+            }
+        });
+        btnBD10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD10.class);
+                startActivity(i1);
+            }
+        });
+        btnBD11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD11.class);
+                startActivity(i1);
+            }
+        });
+        btnBD12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD12.class);
+                startActivity(i1);
+            }
+        });
+        btnBD13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i1 = new Intent(Distance.this, WebBD13.class);
+                startActivity(i1);
+            }
+        });
+
 
     }
 
