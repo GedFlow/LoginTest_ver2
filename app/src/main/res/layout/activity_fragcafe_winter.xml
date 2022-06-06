@@ -60,6 +60,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/sagolcalStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -69,6 +70,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/sagolcalReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -123,6 +125,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/ulcalStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -132,6 +135,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/ulcalReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -186,6 +190,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/calmanduStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -195,6 +200,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/calmanduReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -249,6 +255,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/sirakStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -258,6 +265,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/sirakReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -312,6 +320,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/gogisirakStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -321,6 +330,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/gogisirakReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -358,9 +368,15 @@
                     android:id="@+id/얼큰우삼겹시락국밥"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="3"
+                    android:layout_weight="5"
                     android:text="얼큰 우삼겹 시락국밥"
                     android:textSize="30dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6400원"
+                    android:textSize="20dp"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -369,6 +385,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/ulgogisirakStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -378,6 +395,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/ulgogisirakReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -422,7 +440,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="6400원"
+                    android:text="6000원"
                     android:textSize="20dp"
                     />
                 <LinearLayout
@@ -432,6 +450,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/bibimStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -441,6 +460,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/bibimReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -485,7 +505,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="6000원"
+                    android:text="6500원"
                     android:textSize="20dp"
                     />
                 <LinearLayout
@@ -495,6 +515,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/bulStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -504,6 +525,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/bulReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -558,6 +580,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/yetStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -567,6 +590,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/yetReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -621,6 +645,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/duckStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -630,6 +655,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/duckReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -684,6 +710,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/momilStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -693,6 +720,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/momilReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -747,6 +775,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/bibimmomilStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -756,6 +785,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/bibimmomilReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -810,6 +840,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/zinmanduStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -819,6 +850,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/zinmanduReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -873,6 +905,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/galbiStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -882,6 +915,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/galbiReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -936,6 +970,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/gunmanduStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -945,6 +980,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/gunmanduReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
@@ -999,6 +1035,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/duckgalbiStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -1008,6 +1045,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/duckgalbiReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"

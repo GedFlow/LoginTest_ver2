@@ -61,6 +61,7 @@
                     android:layout_weight="7"
                     >
                     <TextView
+                        android:id="@+id/koreanfoodStar"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="7"
@@ -70,6 +71,7 @@
                         android:textSize="20dp"
                         />
                     <TextView
+                        android:id="@+id/koreanfoodReview"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="5"
