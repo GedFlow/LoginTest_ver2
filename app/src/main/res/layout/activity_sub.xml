@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/line_cafe"
+    android:orientation="vertical"
+    android:layout_marginBottom="12dp"
+    tools:context=".Sub">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/name0"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text=" 박태준"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <RatingBar
+                android:id="@+id/star0"
+                style="@android:style/Widget.Holo.Light.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="5"
+                android:numStars="5"
+                android:rating="5"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/review0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">> 리뷰의 내용이 들어갈 부분 과연 자동으로 줄 바꿈이 될 것ㅇ니가? 되네? 굿"
+        />
+
+</LinearLayout>
