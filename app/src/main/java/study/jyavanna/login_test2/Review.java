@@ -49,13 +49,14 @@ public class Review extends AppCompatActivity {
 
         String TAG = name;
 
-        String docStr = "치즈돈까스";
         btnReview = (Button) findViewById(R.id.btnReview);
 
         txtTitle = (TextView)findViewById(R.id.rTitle);
         rateStar = (RatingBar)findViewById(R.id.rRating);
         edtUser = (EditText)findViewById(R.id.rUser);
         edtReview = (EditText)findViewById(R.id.rReview);
+
+        txtTitle.setText(name);
 
         db.collection(name)
                 .get()

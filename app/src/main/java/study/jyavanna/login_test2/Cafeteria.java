@@ -16,7 +16,7 @@ public class Cafeteria extends AppCompatActivity {
 
     private FragmentManager fragmentManager;
     private FragmentTransaction transaction;
-    private Fragcafe_bonbu bonbu;
+
     private Fragcafe_budorm budorm;
     private Fragcafe_global global;
     private Fragcafe_kyosu kyosu;
@@ -35,14 +35,14 @@ public class Cafeteria extends AppCompatActivity {
 
         fragmentManager = getSupportFragmentManager();
 
-        bonbu = new Fragcafe_bonbu();
         budorm = new Fragcafe_budorm();
         global = new Fragcafe_global();
         kyosu = new Fragcafe_kyosu();
         winter = new Fragcafe_winter();
 
+        txtCategory.setText("교수회관");
         transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.framelayout, bonbu).commitAllowingStateLoss();
+        transaction.replace(R.id.framelayout, kyosu).commitAllowingStateLoss();
 
         btnCategory.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,10 +56,10 @@ public class Cafeteria extends AppCompatActivity {
                         transaction = fragmentManager.beginTransaction();
 
                         switch (menuItem.getItemId()) {
-                            case R.id.action_bonbu:
-                                txtCategory.setText("본부동 식당");
-                                transaction.replace(R.id.framelayout, bonbu).commitAllowingStateLoss();
-                                break;
+//                            case R.id.action_bonbu:
+//                                txtCategory.setText("본부동 식당");
+//                                transaction.replace(R.id.framelayout, bonbu).commitAllowingStateLoss();
+//                                break;
 
                             case R.id.action_kyosu:
                                 txtCategory.setText("교수회관");
