@@ -15,9 +15,12 @@
         android:theme="@style/Theme.Login_Test2"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".Review"
-            android:theme="@style/Theme.MyDialog"
+            android:name=".Sub"
             android:exported="false" />
+        <activity
+            android:name=".Review"
+            android:exported="false"
+            android:theme="@style/Theme.MyDialog" />
         <activity
             android:name=".WebBD1"
             android:exported="false" />

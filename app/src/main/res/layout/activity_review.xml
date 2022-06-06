@@ -20,9 +20,33 @@
             android:layout_height="wrap_content"
             android:text="치즈돈까스"
             android:gravity="center"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:layout_marginTop="10dp"
             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:orientation="vertical"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/line_cafe"
+                >
+                <LinearLayout
+                    android:id="@+id/parentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
 
         <RatingBar
             android:id="@+id/rRating"
@@ -38,14 +62,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:hint="닉네임"
-            android:layout_marginTop="20dp"
             android:maxLength="20"
             />
 
         <EditText
             android:id="@+id/rReview"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="100dp"
             android:hint="리뷰쓰기 (100자 이내)"
             android:maxLength="100"
             />

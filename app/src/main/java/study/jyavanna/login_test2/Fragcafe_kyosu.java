@@ -22,11 +22,13 @@ public class Fragcafe_kyosu extends Fragment {
         View view = inflater.inflate(R.layout.activity_fragcafe_kyosu, container, false);
 
         TextView cd = (TextView)view.findViewById(R.id.cheezeDonga);
+        String a = cd.getText().toString();
         cd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getActivity().startActivity(new Intent(getActivity(), Review.class));
-
+                Intent i1 = new Intent(getActivity(), Review.class);
+                i1.putExtra("name", a);
+                getActivity().startActivity(i1);
             }
         });
 
